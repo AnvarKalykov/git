@@ -1,0 +1,35 @@
+1. Before starting work
+
+git config --global user.name "Name LastName"
+git config --global user.email "name@gmail.com"
+
+git config -l
+
+2. Creat DB git in dir
+
+git init .
+
+3. Check status files git
+
+git status
+
+4. Add files to changing status
+
+git add <file>
+
+git add . #all files
+
+5. commit file
+
+git commit -m "Initial commit version1.0"
+
+
+6. history comit
+
+git log
+
+git log -1
+
+git log -1 -p
+
+
