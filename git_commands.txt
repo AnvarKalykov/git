@@ -32,4 +32,11 @@ git log -1
 
 git log -1 -p
 
+7. to discard changes in working directory
+
+git restore <file>
+
+8. git diff --staged #show diffirence between staged and last commit
+
+
 
