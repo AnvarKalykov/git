@@ -49,7 +49,17 @@ git remote -v
 
 git remote set-url origin git@guthub.com:blablabla
 
-10.
+10. Brunch
+
+git branch 
+
+git branch xxx   #create branch
+
+git checkout xxx #switch branch
+
+git branch -d xxx #delete branch
+
+git checkout -b xxx #create and switch to new branch
 
 
 
