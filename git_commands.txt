@@ -61,6 +61,8 @@ git branch -d xxx #delete branch
 
 git checkout -b xxx #create and switch to new branch
 
+git merge xxx #from main branch
+
 
 
 
