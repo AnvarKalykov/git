@@ -66,6 +66,16 @@ git checkout -b xxx #create and switch to new branch
 git merge xxx #from main branch
 
 
+11. Previus version
 
+git log
 
+git checkout hash_number_what_you_want #temporarily
+
+git checkout main #return to main
+
+git commit --amend #change previous commit
+
+return to commit permanently
+git reset --hard HEAD~2(how many commit return)
 
