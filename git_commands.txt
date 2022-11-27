@@ -109,3 +109,10 @@ git tag -d v1.0 #local
 
 git push origin --delete v1.0
 
+git checkout v1.0 #switching to v1.0
+
+git log --pretty=online
+
+git tag -a v1.1 a12313fe #add something 
+
+git push origin --tags #push all tags
