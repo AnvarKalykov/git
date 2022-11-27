@@ -59,7 +59,7 @@ git checkout xxx #switch branch
 
 git branch -d xxx #delete branch
 
-git branch -D xxx #delete branch
+git push origin --delete xxx #delete branch remote on the github
 
 git checkout -b xxx #create and switch to new branch
 
@@ -78,4 +78,26 @@ git commit --amend #change previous commit
 
 return to commit permanently
 git reset --hard HEAD~2(how many commit return)
+
+11.1 Full cycle of work of git and github
+
+git clone git@github.com:test/test.git
+
+git checkout -b anvar_task777
+
+git push origin
+
+git push --set-upstream origin anvar_task777
+
+git checkout master
+
+git branch -d anvar_task777
+
+git push origin --delete anvar_task777
+
+
+
+12. work with tags
+
+
 
